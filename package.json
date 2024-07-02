@@ -1,0 +1,19 @@
+{
+  "name": "addon-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "napi build --release",
+    "build:debug": "napi build"
+  },
+  "devDependencies": {
+    "@napi-rs/cli": "^1.0.0"
+  },
+  "napi": {
+    "name": "addon-demo"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
